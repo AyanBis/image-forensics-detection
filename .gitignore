@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+models/*.joblib
+outputs/*
+!outputs/.gitkeep
+data/authentic/*
+data/tampered/*
+!data/authentic/.gitkeep
+!data/tampered/.gitkeep
